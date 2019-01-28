@@ -16,7 +16,7 @@ Introduction of ourselves (3 min each person)
 ########################################
 About some policies of our group (3 min)
 ########################################
-Review group expectation / rules
+Review group expectation
 
 * Expected time expand: 3 ~ 4 month. 
 * English to discuss about the project. 
@@ -34,19 +34,6 @@ Kaggle in general and Digit Recognizer, very basic information.
 * What is this Kaggle project about.
 * What is the data? How are they structured?
 
-
-#################################################
-Model we are going to use (5 min for each person) 
-#################################################
-Is there any machine learning model that might apply this this challenge?
-Can you have a quick introduction of the model and how they might be applied? 
-
-* Neural Network, specifically Convolutional Neural Networks
-* Principle Components Analysis
-* Random Forest Classification
-* The others
-
-
 ###########################
 Tools
 ###########################
@@ -59,8 +46,9 @@ Tools
 TO-DO
 ###########################
 
+* Research on model
 * Choose a model
-* Brain storming 
+* Brain storming what to do next 
 
 ##################################
 Resources you might be interested
@@ -68,5 +56,7 @@ Resources you might be interested
 
 1. `Getting started with Kaggle Competition <https://towardsdatascience.com/machine-learning-kaggle-competition-part-one-getting-started-32fb9ff47426>`_
 2. `Tensorflow for beginner to advance <https://www.kaggle.com/ashishpatel26/tensorflow-for-beginner-to-advance>`_
+3. `cs231n <http://cs231n.stanford.edu/>`_
+4. `Ximing tensorflow Study note on online course cs231n <https://github.com/XimingFeng/cs231n-assignment2/blob/master/TensorFlow.ipynb>`_
 
 
