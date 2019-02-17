@@ -1,0 +1,84 @@
+11th Feb 2019
+===================
+
+The meeting was hold on 8: 30 pm EST. We discussed about questions and concerns during our study and shared opions about them.
+Then we talked the research result about Random Forest Tree and Neural Network. At teh last, we decide to have another meeting to talk about the researches. More details are shown below.
+
+######################################
+Questions or Concerns during research
+######################################
+
+*******************************
+How to balance work and study
+*******************************
+It is hard. Baby step everyday and we will become badass eventually.
+
+*******************************
+Method of studying
+*******************************
+
+* Understand basic precedure of the algorith / model. Understand the advantage and disadvantage of using it. 
+* Be able to compare models. Understand which algorithm is better than the others in specific situation.
+* Start from the question/challenge. Conduct the research based on the question. The detail level would be enough if our research is enough to answer the question or accomplish the challenge. During the interview, if we are asked with the related topics, we can introduce the interviewer the project we did and how the knowledge we obtained from the research helped us solve the problems. 
+* If at a beginning place, start an online tutorial or a textbook that other people recommend.
+
+
+###############################
+Models / Algorithms Discussion
+###############################
+Research Assignment 
+
+* Sharon: Random Forest Tree
+* Jessica: 
+* Ximing: Convolutional Neural Network
+
+**********************
+Random Forest Tree
+**********************
+
+A traditional machine learning algorithm. To say it in simple words: Random forest builds multiple decision trees and merges them together to get a more accurate and stable prediction. Compared to Neural network, it is much easier to interpret. 
+
+Imagine a guy named Andrew, that want’s to decide, to which places he should travel during a one-year vacation trip. He asks people who know him for advice. First, he goes to a friend, tha asks Andrew where he traveled to in the past and if he liked it or not. Based on the answers, he will give Andrew some advice.
+
+This is a typical decision tree algorithm approach. Andrews friend created rules to guide his decision about what he should recommend, by using the answers of Andrew.
+
+Afterwards, Andrew starts asking more and more of his friends to advise him and they again ask him different questions, where they can derive some recommendations from. Then he chooses the places that where recommend the most to him, which is the typical Random Forest algorithm approach.
+
+`Real life Analogy <https://towardsdatascience.com/the-random-forest-algorithm-d457d499ffcd#2eef>`_
+
+Question: 
+
+* Is it a supervised or unsupervised learning?
+* Is it for classification or for regression problem.
+
+
+********************************
+Neural Network
+********************************
+
+Nearal network could be applied to both supervised and unsupervised problem. 
+
+* Goal: to approximate some function :math:`f^*(x)`. 
+* Example: A classifier such as `Digit Recognizer <https://www.kaggle.com/c/digit-recognizer>`_ . We are trying to map an input :math:`\boldsymbol{x}` to a category :math:`y`. As the example of Digit Recognizer, the input is an image of hand written digit. We are trying to approximate this function :math:`f^*(x)` to map this image to the correct digit. 
+
+It forms the basic of many important commercial application such as Convolutional Neural Network and Recurrent Neural Network.
+
+It represent the combination of different functions. For example, we might have three functions :math:`f_1, f_2 and f_3` connectedin a chain, to form :math:`f(x) = f_3(f_2(f_1(x)))`. These chain structures are the most commonly used structures of neural networks. In this case, :math:`f_1` is called the ﬁrst layerof the network, :math:`f_2` is called the second layer, and so on. 
+
+The ﬁnal layer of a feedforward network is called the output layer. During neural network training, we drive :math:`f(x)` to match :math:`f^∗(x)`. 
+
+
+############################
+Study Resource
+############################
+
+* `Meeting Video <https://drive.google.com/file/d/1b-g5elFa0QJAlNIJwImb52qKPMYfMVEy/view?usp=sharing>`_
+* `Andrew Ng on Building a Career in Machine Learning <https://www.youtube.com/watch?v=4kiHsIaK9_w>`_
+* `The Random Forest Algorithm <https://towardsdatascience.com/the-random-forest-algorithm-d457d499ffcd>`_
+* `Deep Learning Book <https://www.deeplearningbook.org/>`_
+* `How to cite specific section of an article in Medium <https://medium.freecodecamp.org/how-to-link-to-a-specific-paragraph-in-your-medium-article-2018-table-of-contents-method-e66595fea549>`_
+* `Study Note on Neural Network from Ximing <https://deep-learning-study-note.readthedocs.io/en/latest/Part%202%20(Modern%20Practical%20Deep%20Networks)/index.html>`_
+
+
+
+

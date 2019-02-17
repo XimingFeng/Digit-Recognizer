@@ -30,17 +30,17 @@ About the project (5 min)
 ###########################
 Kaggle in general and Digit Recognizer, very basic information.  
 
-* About Kaggle projects.
-* What is this Kaggle project about.
-* What is the data? How are they structured?
+* About Kaggle projects.  
+* What is this Kaggle project about. (`Overview <https://www.kaggle.com/c/digit-recognizer>`_)
+* What is the data? How are they structured? (`Desciption <https://www.kaggle.com/c/digit-recognizer/data>`_)
 
 ###########################
 Tools
 ###########################
 
-* Kaggle Kernel
-* Python
-* Tensorflow
+* Kaggle Kernel (Challenge: Cannot add team member)
+* Python 
+* Tensorflow / Keras 
 
 ###########################
 TO-DO
@@ -48,7 +48,8 @@ TO-DO
 
 * Research on model
 * Choose a model
-* Brain storming what to do next 
+* Set up environment
+* Check point / Study plan dashboard creation
 
 ##################################
 Resources you might be interested
@@ -58,5 +59,7 @@ Resources you might be interested
 2. `Tensorflow for beginner to advance <https://www.kaggle.com/ashishpatel26/tensorflow-for-beginner-to-advance>`_
 3. `cs231n <http://cs231n.stanford.edu/>`_
 4. `Ximing tensorflow Study note on online course cs231n <https://github.com/XimingFeng/cs231n-assignment2/blob/master/TensorFlow.ipynb>`_
+5. `Getting started with sphinx read the docs <https://docs.readthedocs.io/en/latest/intro/getting-started-with-sphinx.html>`_
+
 
 

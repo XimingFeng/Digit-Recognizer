@@ -5,7 +5,7 @@ This is the first meeting of our project.
 
 
 ###############################################
-Introduction of ourselves (2 min each person)
+Introduction of ourselves (3 min each person)
 ###############################################
 
 * How do you like to be called?
@@ -14,9 +14,9 @@ Introduction of ourselves (2 min each person)
 
 
 ########################################
-About some policies of our group (5 min)
+About some policies of our group (3 min)
 ########################################
-Review group policies
+Review group expectation
 
 * Expected time expand: 3 ~ 4 month. 
 * English to discuss about the project. 
@@ -28,46 +28,28 @@ Review group policies
 ###########################
 About the project (5 min)
 ###########################
-Tell us what do you know about Kaggle competition in general,  
+Kaggle in general and Digit Recognizer, very basic information.  
 
-* About Kaggle project.
-* What is this Kaggle project about.
-* What is the data? How are they structured?
-
-
-#################################################
-Model we are going to use (5 min for each person) 
-#################################################
-Is there any machine learning model that might apply this this challenge?
-Can you have a quick introduction of the model and how they might be applied? 
-
-* Neural Network, specifically Convolutional Neural Networks
-* Principle Components Analysis
-* Random Forest Classification
-* The others
-
+* About Kaggle projects.  
+* What is this Kaggle project about. (`Overview <https://www.kaggle.com/c/digit-recognizer>`_)
+* What is the data? How are they structured? (`Desciption <https://www.kaggle.com/c/digit-recognizer/data>`_)
 
 ###########################
 Tools
 ###########################
 
-* Kaggle Kernel
-* Python
-* Tensorflow
-
-########################################
-How are we going to preceed the project
-########################################
-
-Each person has its own team?
+* Kaggle Kernel (Challenge: Cannot add team member)
+* Python 
+* Tensorflow / Keras 
 
 ###########################
 TO-DO
 ###########################
 
+* Research on model
 * Choose a model
-
-
+* Set up environment
+* Check point / Study plan dashboard creation
 
 ##################################
 Resources you might be interested
@@ -75,5 +57,9 @@ Resources you might be interested
 
 1. `Getting started with Kaggle Competition <https://towardsdatascience.com/machine-learning-kaggle-competition-part-one-getting-started-32fb9ff47426>`_
 2. `Tensorflow for beginner to advance <https://www.kaggle.com/ashishpatel26/tensorflow-for-beginner-to-advance>`_
+3. `cs231n <http://cs231n.stanford.edu/>`_
+4. `Ximing tensorflow Study note on online course cs231n <https://github.com/XimingFeng/cs231n-assignment2/blob/master/TensorFlow.ipynb>`_
+5. `Getting started with sphinx read the docs <https://docs.readthedocs.io/en/latest/intro/getting-started-with-sphinx.html>`_
+
 
 
