@@ -76,7 +76,6 @@ Suggestions
 Resource shared this week
 #########################
 
-* Meeting Video :download:`rsc/zoom_0.mp4`
 * `Sparse Autoencoder <https://www.youtube.com/watch?v=vfnxKO2rMq4&t=2848s>`_
 * `A Comprehensive Guide to Ensemble Learning <https://www.analyticsvidhya.com/blog/2018/06/comprehensive-guide-for-ensemble-models/>`_
 * `Machine Learning with R and H2O <https://www.h2o.ai/wp-content/uploads/2018/01/RBooklet.pdf>`_
