@@ -1,0 +1,282 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>4th March 2019 &mdash; Digit Recognizer 0.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="11th Feb 2019" href="11thFeb2019.html" /> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Digit Recognizer
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Meeting Minutes</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="28thJan2019.html">28th Jan 2019</a></li>
+<li class="toctree-l2"><a class="reference internal" href="11thFeb2019.html">11th Feb 2019</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">4th March 2019</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#minnor-issue">Minnor issue</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#conv-layer">Conv Layer</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#what-is-neural-network">What is Neural Network</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#convolution">Convolution</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#suggestions">Suggestions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#resource-shared-this-week">Resource shared this week</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Digit Recognizer</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">Meeting Minutes</a> &raquo;</li>
+        
+      <li>4th March 2019</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/Meeting Minutes/4thMarch2019.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="th-march-2019">
+<h1>4th March 2019<a class="headerlink" href="#th-march-2019" title="Permalink to this headline">¶</a></h1>
+<p>In this meeting, Ximing tried to share his idea of how convolutions work. Sharon also shared her questions and understanding during the meeting. Please check meeting videos for every detail.</p>
+<div class="section" id="minnor-issue">
+<h2>Minnor issue<a class="headerlink" href="#minnor-issue" title="Permalink to this headline">¶</a></h2>
+<p>Please get involved more if possible.</p>
+</div>
+<div class="section" id="conv-layer">
+<h2>Conv Layer<a class="headerlink" href="#conv-layer" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="what-is-neural-network">
+<h3>What is Neural Network<a class="headerlink" href="#what-is-neural-network" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Goal: to approximate some function <span class="math notranslate nohighlight">\(f^*(x)\)</span>.</li>
+<li>Example: A classifier such as <a class="reference external" href="https://www.kaggle.com/c/digit-recognizer">Digit Recognizer</a> . We are trying to map an input <span class="math notranslate nohighlight">\(\boldsymbol{x}\)</span> to a category <span class="math notranslate nohighlight">\(y\)</span>. As the example of Digit Recognizer, the input is an image of hand written digit. We are trying to approximate this function <span class="math notranslate nohighlight">\(f^*(x)\)</span> with function f to map this image to the correct digit.</li>
+</ul>
+</div>
+<div class="section" id="convolution">
+<h3>Convolution<a class="headerlink" href="#convolution" title="Permalink to this headline">¶</a></h3>
+<p>What is convolution in terms of vectors?</p>
+<p>It is like applying a sliding window (we can call it kernel or filter) on top of the input of a layer. Example:</p>
+<p>Our input is</p>
+<div class="math notranslate nohighlight">
+\[X = (x_1, x_2, x_3, .... , x_n)\]</div>
+<p>Our Kenel (it contains all the parameters of the convolution) is</p>
+<div class="math notranslate nohighlight">
+\[K = (k_1, k_2, k_3)\]</div>
+<p>The output of convolution is</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}Y =
+\begin {pmatrix}
+        x_1k_1 + x_2k_2 + x_3k_3 \\
+        x_2k_1 + x_3k_2 + x_4k_3 \\
+        x_3k_1 + x_4k_2 + x_5k_3 \\
+        ...
+\end {pmatrix}\end{split}\]</div>
+<p>We are sliding the kernel on top of the input then apply the multiplication and sum to the corresponding input. Sliding would stop when the kenel reach the end of the input.</p>
+<p>Sharon’s question: how to integrate this image:</p>
+<img alt="../_images/NeuralNetwork.png" src="../_images/NeuralNetwork.png" />
+<p>Ximing’s understadning: This is an image for fully connected layer. Other then Convolution, we can also apply some other operation on the input of a layer. When you use matrix multiplication, the layer is called fully connected layer. There is no parameter sharing in</p>
+<p>In order to see how convolution is applied in matrix or tensor, please see the animation <a class="reference external" href="http://cs231n.github.io/convolutional-networks/#conv">here</a></p>
+</div>
+</div>
+<div class="section" id="suggestions">
+<h2>Suggestions<a class="headerlink" href="#suggestions" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Get more prepared before the meeting. Trying to avoid draw diagram from scratch.</li>
+<li>Putting tegother a slide would be much more helpful.</li>
+</ul>
+</div>
+<div class="section" id="resource-shared-this-week">
+<h2>Resource shared this week<a class="headerlink" href="#resource-shared-this-week" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Meeting Video <a class="reference download internal" download="" href="../_downloads/4e4726afb09cefcbc3c568661b0e7441/zoom_0.mp4"><code class="xref download docutils literal notranslate"><span class="pre">rsc/zoom_0.mp4</span></code></a></li>
+<li><a class="reference external" href="https://www.youtube.com/watch?v=vfnxKO2rMq4&amp;t=2848s">Sparse Autoencoder</a></li>
+<li><a class="reference external" href="https://www.analyticsvidhya.com/blog/2018/06/comprehensive-guide-for-ensemble-models/">A Comprehensive Guide to Ensemble Learning</a></li>
+<li><a class="reference external" href="https://www.h2o.ai/wp-content/uploads/2018/01/RBooklet.pdf">Machine Learning with R and H2O</a></li>
+<li><a class="reference external" href="http://cs231n.github.io/convolutional-networks/#conv">cs231n Convolutional Neural Networks</a></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="11thFeb2019.html" class="btn btn-neutral" title="11th Feb 2019" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Ximing Feng
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+  
+
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

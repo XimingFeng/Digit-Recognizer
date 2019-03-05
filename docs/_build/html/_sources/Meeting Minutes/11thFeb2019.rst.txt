@@ -22,6 +22,15 @@ Method of studying
 * Start from the question/challenge. Conduct the research based on the question. The detail level would be enough if our research is enough to answer the question or accomplish the challenge. During the interview, if we are asked with the related topics, we can introduce the interviewer the project we did and how the knowledge we obtained from the research helped us solve the problems. 
 * If at a beginning place, start an online tutorial or a textbook that other people recommend.
 
+*************************************************
+How to categorize machine learning algorithms
+*************************************************
+
+* Supervised Algorithms: The training data set has inputs as well as the desired output. During the training session, the model will adjust its variables to map inputs to the corresponding output.
+* Unsupervised Algorithms: In this category, there is not a target outcome. The algorithms will cluster the data set for different groups.
+* Reinforcement Algorithms: These algorithms are trained on taking decisions. Therefore based on those decisions, the algorithm will train itself based on the success/error of output. Eventually by experience algorithm will able to give good predictions.
+
+
 
 ###############################
 Models / Algorithms Discussion
@@ -78,6 +87,8 @@ Study Resource
 * `Deep Learning Book <https://www.deeplearningbook.org/>`_
 * `How to cite specific section of an article in Medium <https://medium.freecodecamp.org/how-to-link-to-a-specific-paragraph-in-your-medium-article-2018-table-of-contents-method-e66595fea549>`_
 * `Study Note on Neural Network from Ximing <https://deep-learning-study-note.readthedocs.io/en/latest/Part%202%20(Modern%20Practical%20Deep%20Networks)/index.html>`_
+* `10 Machine Learning Algorithms You need to Know <https://towardsdatascience.com/10-machine-learning-algorithms-you-need-to-know-77fb0055fe0>`_
+* `Choosing the Right Machine Learning Algorithm <https://hackernoon.com/choosing-the-right-machine-learning-algorithm-68126944ce1f>`_
 
 
 
